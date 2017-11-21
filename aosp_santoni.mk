@@ -29,7 +29,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
-$(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := santoni
